@@ -1,0 +1,8 @@
+framework module UMAnalytics {
+   header "MobClick.h"
+   header "DplusMobClick.h"
+   header "MobClickGameAnalytics.h"
+   export *
+   link "sqlite3"
+   link "z"
+}

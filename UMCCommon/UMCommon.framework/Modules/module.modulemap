@@ -1,0 +1,7 @@
+framework module UMCommon {
+   header "UMCommon.h"
+   header "UMConfigure.h"
+   export *
+   link "sqlite3"
+   link "z"
+}
